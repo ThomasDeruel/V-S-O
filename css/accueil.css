@@ -1,0 +1,77 @@
+.container-content {
+  background-image: url("../image/mondeDesertique/testSize.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-position: center center;
+  z-index: 1;
+}
+
+/*.container-content::after {
+  content: '';
+  background: rgba(30, 25, 51, 0.5);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}*/
+
+.container-elements {
+  position: absolute;
+  top: 260px;
+  z-index: 3;
+}
+
+.main-title {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  font-weight: lighter;
+}
+
+.main-subTitle {
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 34px;
+  font-weight: lighter;
+}
+
+.main-description {
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+.btn-start-order {
+  background: #4888FF;
+  /*background: linear-gradient(to right, rgb(48, 35, 174), rgb(83, 160, 253));*/
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  margin: 50px;
+  width: 150px;
+  height: 40px;
+  font-weight: lighter;
+  transition: all 0.25s ease 0s;
+  letter-spacing: 1px;
+}
+
+/* Ipad */
+
+@media (min-width: 769px) and (max-width: 1023px) {}
+
+/* Small tablet */
+
+@media (min-width: 481px) and (max-width: 768px) {}
+
+/* Phones */
+
+@media (max-width: 480px) {}
